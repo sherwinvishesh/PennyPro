@@ -12,13 +12,13 @@ const { networkConfig, useNetworkVariable, useNetworkVariables } =
       variables: {
         counterPackageId: DEVNET_COUNTER_PACKAGE_ID,
       },
-    },
-    mainnet: {
-      url: getFullnodeUrl("mainnet"),
-      variables: {
-        counterPackageId: MAINNET_COUNTER_PACKAGE_ID,
-      },
-    },
+    }
+    // mainnet: {
+    //   url: getFullnodeUrl("mainnet"),
+    //   variables: {
+    //     counterPackageId: MAINNET_COUNTER_PACKAGE_ID,
+    //   },
+    // },
   });
-
+//Removed mainnet beacause of some issues
 export { useNetworkVariable, useNetworkVariables, networkConfig };
