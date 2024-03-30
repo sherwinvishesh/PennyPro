@@ -3,14 +3,30 @@ import React, { useState } from 'react';
 import { ConnectButton, useCurrentAccount } from "@mysten/dapp-kit";
 import { Box, Container, Flex, Heading } from "@radix-ui/themes";
 import { DataInput } from './DataInput';
-import { Analysis } from './Analysis'; // Assume you've created this component
+import Analysis from './Analysis';
+
+const predefinedImageUrls = [
+  'static/images/monthly_expense_breakdown.png',
+  'static/images/predictive_spending_entertainment.png',
+  'static/images/predictive_spending_food.png',
+  'static/images/predictive_spending_insurance.png',
+  'static/images/predictive_spending_miscellaneous.png',
+  'static/images/predictive_spending_transportation.png',
+  'static/images/predictive_spending_utilities.png',
+  'static/images/savings_opportunity.png',
+  'static/images/spending_efficiency_radar_chart.png',
+];
+
+
 
 function App() {
   const currentAccount = useCurrentAccount();
   const [view, setView] = useState<'welcome' | 'dataInput' | 'analysis'>('welcome');
+  const [imageUrls, setImageUrls] = useState<string[]>([]); // Add this line
 
   const handleStartAnalysis = () => {
-    setView('analysis'); // This function will be called by DataInput to switch to the analysis view
+    setImageUrls(predefinedImageUrls); // Use predefined URLs
+    setView('analysis'); // Switch to the analysis view
   };
 
   return (
@@ -29,7 +45,7 @@ function App() {
           <Heading>Please connect your wallet</Heading>
         ) : null}
         {view === 'dataInput' && <DataInput onStartAnalysis={handleStartAnalysis} />}
-        {view === 'analysis' && <Analysis />}
+        {view === 'analysis' && <Analysis imageUrls={imageUrls} />}
       </Container>
     </>
   );
