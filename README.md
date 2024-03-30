@@ -1,10 +1,11 @@
 # PennyPro
 
-PennyPro is a financial analysis tool designed to help users gain insights into their spending habits through uploaded financial data. Utilizing a Python backend with Flask and a React frontend, PennyPro analyzes CSV files containing expense data and visualizes spending patterns, predictive spending, savings opportunities, and spending efficiency.
+PennyPro is a decentralized financial analysis tool designed to help users gain insights into their spending habits through uploaded financial data. Utilizing a Python backend with Flask and a React frontend, PennyPro analyzes CSV files containing expense data and visualizes spending patterns, predictive spending, savings opportunities, and spending efficiency.
 
 ## Features
 
-- **Upload Expense Data**: Users can upload their financial data in CSV format.
+- **decentralized**: Used Sui as the blockchain for security and transparency purposes.
+- **Upload Expense Data**: Users can upload their financial data manually or in CSV format.
 - **Visualize Spending**: Generates pie charts, line graphs, and radar charts to visualize spending habits, predictive spending, and more.
 - **Predictive Spending Analysis**: Utilizes ARIMA models to forecast future spending in various categories.
 - **Efficiency and Opportunity Insights**: Identifies potential savings opportunities and evaluates spending efficiency.
