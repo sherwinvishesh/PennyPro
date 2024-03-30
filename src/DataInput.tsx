@@ -1,4 +1,3 @@
-// DataInput.tsx
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 
 interface FormData {
@@ -8,7 +7,11 @@ interface FormData {
   date: string;
 }
 
-export const DataInput: React.FC<{ onStartAnalysis: () => void }> = ({ onStartAnalysis }) => {
+interface DataInputProps {
+  onStartAnalysis: () => void; // Update here to no longer expect an argument
+}
+
+export const DataInput: React.FC<DataInputProps> = ({ onStartAnalysis }) => {
   const [formData, setFormData] = useState<FormData[]>([{ expenseOn: '', expenseType: '', amount: '', date: '' }]);
   const [file, setFile] = useState<File | null>(null);
 
@@ -30,10 +33,33 @@ export const DataInput: React.FC<{ onStartAnalysis: () => void }> = ({ onStartAn
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    console.log('Form Data:', formData);
-    console.log('CSV File:', file);
-    onStartAnalysis(); // Invoke the callback to signal readiness to start analysis
+    if (!file) {
+      alert('Please select a file first.');
+      return;
+    }
+    const formData = new FormData();
+    formData.append('file', file);
+  
+    // Make sure this URL matches your Flask app URL
+    // Note: Adjust the URL if your endpoint is not at the root
+    fetch('http://127.0.0.1:5000/upload', { 
+      method: 'POST',
+      body: formData,
+    })
+    .then(response => response.json())
+    .then(data => {
+      // Assuming 'data' includes an 'imageUrls' array
+      // You might need to adjust this depending on the structure of your response
+       
+        onStartAnalysis();
+      
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      alert('File upload failed!');
+    });
   };
+  
 
   return (
     <div>
