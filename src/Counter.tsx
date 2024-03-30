@@ -1,3 +1,4 @@
+// Counter.tsx
 import {
   useCurrentAccount,
   useSignAndExecuteTransactionBlock,
