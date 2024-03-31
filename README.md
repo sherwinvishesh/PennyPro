@@ -19,6 +19,12 @@ PennyPro is an innovative financial analysis platform, leveraging the cutting-ed
 
 
 
+https://github.com/sherwinvishesh/PennyPro/assets/60791187/5ab6401b-eb5b-47f0-b756-15cd2c1db2a2
+
+
+
+
+
 
 ## Getting Started
 
