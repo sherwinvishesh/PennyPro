@@ -47,7 +47,7 @@ Follow these instructions to set up PennyPro locally for development, testing, a
 
 
 ```bash
-git clone https://github.com/<your-username>/PennyPro.git
+git clone https://github.com/sherwinvishesh/PennyPro.git
 cd PennyPro
 ```
 
