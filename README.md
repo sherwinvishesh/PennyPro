@@ -1,6 +1,6 @@
 # PennyPro: Empowering Financial Insights with Blockchain and AI
 
-![Static Badge](https://img.shields.io/badge/ASU_x_Sui_Hackathon_Winner-%F0%9F%8F%86_Best_use_case_of_AI-green)
+![Static Badge](https://img.shields.io/badge/ASU_x_Sui_Hackathon_Winner-%F0%9F%8F%86_Best_use_of_AI-green)
 [![View on Devpost](https://img.shields.io/badge/View_Project-On%20Devpost-blue)](https://devpost.com/software/pennypro-935xrp)
 
 
