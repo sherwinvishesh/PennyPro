@@ -1,5 +1,7 @@
 # PennyPro: Empowering Financial Insights with Blockchain and AI
 
+![Static Badge](https://img.shields.io/badge/ASU_x_Sui_Hackathon_Winner-%F0%9F%8F%86_Best_use_case_of_AI-green)
+
 
 PennyPro is an innovative financial analysis platform, leveraging the cutting-edge technologies of blockchain and artificial intelligence (AI) to offer users unparalleled insights into their spending habits and financial health. Powered by Sui, a leading blockchain company, PennyPro stands at the intersection of decentralized finance (DeFi) and predictive analytics, providing secure, transparent, and predictive financial planning tools for its users.
 
