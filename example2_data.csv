@@ -1,0 +1,60 @@
+Name,Category,Amount,Date
+KFC,Food,12,2024-03-15
+Starbucks,Food,5,2024-04-20
+Subway,Food,8,2024-05-10
+Netflix,Entertainment,15,2024-06-05
+Uber,Transportation,20,2024-07-12
+Electricity,Utilities,100,2024-08-18
+Water Bill,Utilities,50,2024-09-25
+Movie Tickets,Entertainment,30,2024-10-05
+Gas Station,Transportation,40,2024-11-08
+Amazon,Utilities,200,2024-12-20
+McDonald's,Food,10,2025-01-03
+Cable TV,Utilities,80,2025-02-14
+Insurance Premium,Insurance,150,2025-03-21
+Concert Tickets,Entertainment,75,2025-04-30
+Taxi Fare,Transportation,25,2025-05-12
+Walmart,Rest,50,2025-06-28
+AT&T,Utilities,120,2025-07-04
+Doctor's Visit,Health-care/Medical,200,2025-08-09
+Movie Rental,Entertainment,8,2025-09-15
+Gasoline,Transportation,35,2025-10-20
+Pizza Hut,Food,18,2025-11-30
+Internet Bill,Utilities,70,2025-12-05
+Dentist Appointment,Health-care/Medical,150,2026-01-10
+Costco,Food,60,2026-02-18
+Tax Payment,Taxes,500,2026-03-25
+Car Insurance,Insurance,200,2026-04-30
+Train Tickets,Transportation,45,2026-05-05
+Coffee Shop,Food,7,2026-06-12
+Disney Plus Subscription,Entertainment,10,2026-07-20
+Hair Salon,Health-care/Medical,50,2026-08-28
+Laptop Repair,Miscellaneous,100,2026-09-05
+Home Depot,Utilities,90,2026-10-10
+Home Rent,Utilities,1200,2026-11-15
+Gas Bill,Utilities,80,2026-12-20
+Movie Theater,Entertainment,20,2027-01-25
+Bus Fare,Transportation,5,2027-02-03
+Grocery Store,Food,100,2027-03-10
+Mobile Phone Bill,Utilities,60,2027-04-15
+Dinner Date,Food,70,2027-05-20
+Travel Insurance,Insurance,150,2027-06-25
+Car Maintenance,Miscellaneous,200,2027-07-30
+Pharmacy,Health-care/Medical,30,2027-08-05
+Online Shopping,Miscellaneous,50,2027-09-10
+Petrol Station,Transportation,45,2027-10-15
+Fitness Class,Health-care/Medical,80,2027-11-20
+Convenience Store,Food,25,2027-12-25
+Home Internet,Utilities,70,2028-01-30
+Concert Tickets,Entertainment,100,2028-02-05
+Road Trip,Transportation,200,2028-03-10
+Home Insurance,Insurance,300,2028-04-15
+Gym Subscription,Health-care/Medical,50,2028-05-20
+Movie Rental,Entertainment,5,2028-06-25
+Car Wash,Miscellaneous,15,2028-07-30
+Electric Appliances,Utilities,500,2028-08-05
+Annual Physical,Health-care/Medical,150,2028-09-10
+Car Registration,Transportation,75,2028-10-15
+Home Repairs,Miscellaneous,300,2028-11-20
+Takeout,Food,40,2028-12-25
+
